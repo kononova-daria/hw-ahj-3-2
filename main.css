@@ -1,0 +1,56 @@
+.container {
+  box-sizing: border-box;
+
+  width: 500px;
+  max-height: 45px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px;
+
+  overflow: hidden;
+}
+
+.show-text {
+  max-height: 500px;
+  transition: max-height 3s ease 0s;
+}
+
+.hidden-text {
+  max-height: 45px;
+  transition: max-height 3s ease 0s;
+}
+
+.btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 150px;
+  height: 25px;
+
+  background-color: #6735dc;
+
+  border: none;
+  border-radius: 5px;
+
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #5029aa;
+}
+
+.btn:focus {
+  border: 2px solid #b899ff;
+}
+
+.msg-container {
+  box-sizing: border-box;
+
+  margin-top: 20px;
+  padding: 5px 15px;
+
+  border: 2px solid #bebebe;
+  border-radius: 5px; 
+}
